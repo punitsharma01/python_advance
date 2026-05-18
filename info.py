@@ -20,9 +20,12 @@ concurrent.futures.ProcessPoolExecutor
 Single threaded process and multi threaded process
 
 
-Asyncio ##############
+######################################################
+Asyncio: 
+######################################################
 async def
 declare a coroutine: special function that can be paused
+Async gives you coroutines: pause the execution until you are ready
 
 await: to use this function must be async 
 pause until the result is ready
@@ -31,6 +34,10 @@ pause until the result is ready
 asyncio : library which provides async and await feature 
 
 event loop: engin that runs and schedule co-routines in 
+time.sleep(3)
+await asyncio.sleep(3)
+in await you will wait but in non blocking fashion
+
 
 ######################################################
 Pydantic: 
