@@ -38,6 +38,9 @@ time.sleep(3)
 await asyncio.sleep(3)
 in await you will wait but in non blocking fashion
 
+Blocking vs Non Blocking operation 
+Blocking => time.sleep(2)
+Non Blocking => await asyncio.sleep(2)
 
 ######################################################
 Pydantic: 
